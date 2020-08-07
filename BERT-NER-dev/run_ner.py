@@ -155,7 +155,7 @@ class NerProcessor(DataProcessor):
 
     def get_labels(self):
         return ['I-SBAR', 'B-CONJP', 'B-NP', 'I-VP', 'B-VP', 'I-NP', 'B-ADJP', 'B-INTJ', 'I-UCP', 'B-SBAR', 'B-LST', 'O', 'I-PRT', 'I-CONJP', 'I-ADJP', 'B-PRT', 
-        'I-ADVP', 'I-INTJ', 'B-ADVP', 'I-PP', 'B-UCP', 'I-LST', 'B-PP']
+        'I-ADVP', 'I-INTJ', 'B-ADVP', 'I-PP', 'B-UCP', 'I-LST', 'B-PP', "[CLS]", "[SEP]"]
 
     def _create_examples(self,lines,set_type):
         examples = []
