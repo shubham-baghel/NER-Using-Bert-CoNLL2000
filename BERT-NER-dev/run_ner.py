@@ -296,7 +296,7 @@ def main():
                         action='store_true',
                         help="Whether to run eval or not.")
     parser.add_argument("--eval_on",
-                        default="dev",
+                        default="test",
                         help="Whether to run eval on the dev set or test set.")
     parser.add_argument("--do_lower_case",
                         action='store_true',
