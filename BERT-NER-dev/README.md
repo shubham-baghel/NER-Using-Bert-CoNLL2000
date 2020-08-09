@@ -1,6 +1,6 @@
 # BERT NER
 
-Use google BERT to do CoNLL-2003 NER !
+Use google BERT to do CoNLL-2000 NER !
 
 ![new](https://i.imgur.com/OB4Ugp4.png) Train model using Python and Inference using C++
 
